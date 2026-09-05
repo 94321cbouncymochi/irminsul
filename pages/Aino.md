@@ -15,7 +15,7 @@ After reaching Friendship Level 6 with Aino, a Krumkake Bolt may be obtained thr
 - Elemental mastery: -
 
 #### Ascension Cost 0 -> 1
-- 20,000 {[Mora]page::Currencies/Mora}
+- 20,000 Mora
 - 1 Varunada Lazurite Sliver
 - 3 Portable Bearing
 - 3 Broken Drive Shaft
@@ -28,7 +28,7 @@ After reaching Friendship Level 6 with Aino, a Krumkake Bolt may be obtained thr
 - Elemental mastery: -
 
 #### Ascension Cost 1 -> 2
-- 40,000 {[Mora]page::Currencies/Mora}
+- 40,000 Mora
 - 2 Precision Kuuvahki Stamping Die
 - 3 Varunada Lazurite Fragment
 - 10 Portable Bearing
@@ -42,7 +42,7 @@ After reaching Friendship Level 6 with Aino, a Krumkake Bolt may be obtained thr
 - Elemental mastery: 24
 
 #### Ascension Cost 2 -> 3
-- 60,000 {[Mora]page::Currencies/Mora}
+- 60,000 Mora
 - 4 Precision Kuuvahki Stamping Die
 - 6 Varunada Lazurite Fragment
 - 20 Portable Bearing
@@ -56,7 +56,7 @@ After reaching Friendship Level 6 with Aino, a Krumkake Bolt may be obtained thr
 - Elemental mastery: 48
 
 #### Ascension Cost 3 -> 4
-- 80,000 {[Mora]page::Currencies/Mora}
+- 80,000 Mora
 - 8 Precision Kuuvahki Stamping Die
 - 3 Varunada Lazurite Chunk
 - 30 Portable Bearing
@@ -70,7 +70,7 @@ After reaching Friendship Level 6 with Aino, a Krumkake Bolt may be obtained thr
 - Elemental mastery: 48
 
 #### Ascension Cost 4 -> 5
-- 100,000 {[Mora]page::Currencies/Mora}
+- 100,000 Mora
 - 12 Precision Kuuvahki Stamping Die
 - 6 Varunada Lazurite Chunk
 - 45 Portable Bearing
@@ -84,7 +84,7 @@ After reaching Friendship Level 6 with Aino, a Krumkake Bolt may be obtained thr
 - Elemental mastery: 72
 
 #### Ascension Cost 5 -> 6
-- 120,000 {[Mora]page::Currencies/Mora}
+- 120,000 Mora
 - 20 Precision Kuuvahki Stamping Die
 - 6 Va­ru­na­da La­zu­rite Gemstone
 - 60 Portable Bearing
@@ -99,7 +99,7 @@ After reaching Friendship Level 6 with Aino, a Krumkake Bolt may be obtained thr
 - Elemental mastery: 96
 
 #### Full Cost
-- 420,000 {[Mora]page::Currencies/Mora}
+- 420,000 Mora
 - 46 Precision Kuuvahki Stamping Die
 - 1 Va­ru­na­da La­zu­rite Sli­ver
 - 9 Varunada Lazurite Fragment
@@ -289,75 +289,7 @@ Name: Cistellula Mira
 
 Meaning: Miraculous Casket
 
-### Quests and events
-#### Archon Quests
 
-- Song of the Welkin Moon
-   - Prelude: The Journey Home
-      - Flamelets (flashback-only, voice-only)
-      - Searing (flashback-only, voice-only)
-   - Act I: A Dance of Snowy Tides and Hoarfrost Groves
-      - Where the Moon Rises
-   - Act II: Elegy of Dust and Lamplight
-      - Fulminations and Undercurrents
-      - One There Was, Who Hunted the Moon
-      - The Ashen-White Order Burns
-      - Rest Beyond Reach
-   - Act III: A Nation That Doesn't Exist
-      - Hidden in the Shadows
-      - Everlasting As the Moon
-   - Act IV: An Elegy for Faded Moonlight
-      - Echoes of Fate
-   - Act V: A Nocturne of the Far North
-      - Ripples That Will Never Reach
-   - Act VI: Melting Moonlight in the Morning Mist
-      - The Night the Moon Returns Home
-   - Act VII: A Traveler on a Winter's Night
-      - Moonless Night
-      - Where Our Space and Time Intersect
-   - Act VIII: True Moon
-      - Welkin Moon's Homecoming
-
-#### Story Quests
-- Lupus Majoris Chapter (Varka)
-   - Act I: To Those Who Embark on the Expedition
-      - Fated Warrior
-
-#### World Quests
-- Silvermoon Hall: Selenic Chronicles
-   - Moonlight Sonata
-- A Whole New Craftshop
-- Problem-Sorting Robot
-
-#### Anecdotes
-- Anecdote Chronicles: Aino
-   - Aino: Go, Go, Ineffa!
-   - Aino: The Rescue
-   - Aino: A Better Choice...
-   - Aino: Cats Equal Cuteness!
-   - Aino: Time to Say Farewell
-- Anecdote Chronicles: Illuga
-   - Illuga: One Class After Another
-- Anecdote Chronicles: Ineffa
-   - Ineffa: A Matter of Language
-- Anecdote Chronicles: Jahoda
-   - Jahoda: Sorry, Ineffa...
-- Anecdote Chronicles: Yoimiya
-   - Yoimiya: Like Being a Child Again
-
-#### Events
-- Clink Clank Clash
-   - Crisis: Dun Dun Dunnn! A Major Crisis!
-   - Clamor: Boong Boong Bwoooom! A Grand Plot!
-   - Conclusion: Boom Boom Boooom! A Grand Battle!
-   - Epilogue: Ding Ding Dinggg! A Great Feast!
-   - A Mysterious Outsourced Contract
-   - An Adventurer's Woes
-   - Backup Plans
-   - Misplaced Creativity
-- Lightgleaner's Journey
-
-### Official Introduction, Personality, and Appearance
 #### Official Introduction
 "A chaotic place, lashed by howling, frigid winds." For many, this is their first impression of Nod-Krai. But once you familiarize yourself with its rules and patiently explore the land, you'll come to know that it is full of marvelous, wonderful things as well. As you shop, you may meet a robot girl making purchases like anyone else while the clanking of curiously-shaped foundries echoes through the markets. If you're lucky, you may also catch a glimpse of robots speeding by... Ask around, and you'll learn that these are all Aino's creations.
 

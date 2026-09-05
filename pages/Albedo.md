@@ -13,7 +13,7 @@ A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is th
 - Geo Damage Bonus: -
 
 #### Ascension phase 0 -> 1
-- 20,000 {[Mora]page::Currencies/Mora}
+- 20,000 Mora
 - 1 Prithiva Topaz Sliver
 - 3 Cecilia
 - 3 Divining Scroll
@@ -26,7 +26,7 @@ A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is th
 - Geo Damage Bonus: -
 
 #### Ascension phase 1 -> 2
-- 40,000 {[Mora]page::Currencies/Mora}
+- 40,000 Mora
 - 2 Basalt Pillar
 - 3 Prithiva Topaz Fragment
 - 10 Cecilia
@@ -40,7 +40,7 @@ A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is th
 - Geo Damage Bonus: 7.2%
 
 #### Ascension phase 2 -> 3
-- 60,000 {[Mora]page::Currencies/Mora}
+- 60,000 Mora
 - 4 Basalt Pillar
 - 6 Prithiva Topaz Fragment
 - 20 Cecilia
@@ -54,7 +54,7 @@ A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is th
 - Geo Damage Bonus: 14.4%
 
 #### Ascension phase 3 -> 4
-- 80,000 {[Mora]page::Currencies/Mora}
+- 80,000 Mora
 - 8 Basalt Pillar
 - 3 Prithvia Topaz Chunk
 - 30 Cecilia
@@ -68,7 +68,7 @@ A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is th
 - Geo Damage Bonus: 14.4%
 
 #### Ascension phase 4 -> 5
-- 100,000 {[Mora]page::Currencies/Mora}
+- 100,000 Mora
 - 12 Basalt Pillar
 - 6 Prithvia Topaz Chunk
 - 45 Cecilia
@@ -82,7 +82,7 @@ A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is th
 - Geo Damage Bonus: 21.6%
 
 #### Ascnsion phase 5 -> 6
-- 120,000 {[Mora]page::Currencies/Mora}
+- 120,000 Mora
 - 20 Basalt Pillar
 - 6 Prithvia Topaz Gemstone
 - 50 Cecilia
@@ -96,7 +96,7 @@ A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is th
 - Geo Damage Bonus: 28.8%
 
 #### Full Cost
-- 420,000 {[Mora]page::Currencies/Mora}
+- 420,000 Mora
 - 46 Basalt Pillar
 - 1 Prithiva Topaz Sliver
 - 9 Prithiva Topaz Frag­ment
@@ -292,113 +292,7 @@ Name: Princeps Cretaceus
 
 Meaning: Chalk Prince
 
-### Quests and events
-#### Archon Quests
 
-- Song of the Welkin Moon
-  - Act IV: An Elegy for Faded Moonlight
-    - All Is Foretold
-    - Echoes of Fate
-  - Act V: A Nocturne of the Far North
-    - In the Shifting Light of the Moon
-    - Ripples That Will Never Reach
-  - Act VI: Melting Moonlight in the Morning Mist
-    - The Night the Moon Returns Home
-    - Return to the Moon
-  - Act VII: A Traveler on a Winter's Night
-    - Where Our Space and Time Intersect
-    - Tracing the Footsteps of the Past
-  - Act VIII: True Moon
-    - The First Sliver of Moonlight
-    - Descending Moon
-    - Welkin Moon's Homecoming
-- Interlude Chapter
-  - Act IV: Paralogism
-    - Crimes One and Two
-    - The Hunger of Many
-    - The Gardener
-
-#### Story Quests
-
-- Draco Rubedo Chapter (Durin)
-  - Act I: The Magic Known as Storytelling
-    - The Solution of Fate
- - Lupus Majoris Chapter (Varka)
-  - Act I: To Those Who Embark on the Expedition
-    - Fated Warrior
-- Princeps Cretaceus Chapter (Albedo)
-  - Act I: Traveler Observation Report
-    - The Genius Researcher and the Seed of Another World
-    - The First Experiment: Elements
-    - The Second Experiment: The World
-    - The Third Experiment: Life
-    - The Final Experiment: Withering Glory
-    
-#### Hangout Events
-
-- Kaeya
-  - Act I: Shenanigans and Sweet Wine
-    - An Ordinary Day for the Knights of Favonius
-
-#### World Quests
-
-- Witch's Homework
-  - Of Questions Beyond Questions
-    - Old Friends and New Knowledge
-
-#### Anecdotes
-
-- Anecdote Chronicles: Durin
-  - Durin: Time to Learn
-
-#### Events
-
-- The Chalk Prince and the Dragon
-  - Act I: Festering Desire
-  - Act II: Archon's Rival
-  - Act III: Raiders Amidst Snow Mist
-  - Act IV: Uninvited Guests
-  - Act V: Afterword (The Chalk Prince and the Dragon)
-- Invitation of Windblume
-  - Part III: Realm of Fog and Wind
-  - Part IV: Dream of Wind and Flowers
-- Midsummer Island Adventure
-  - Part III: Dodo-King of the Sea: Lying in Wait
-  - Part IV: The Final Riddle: A Secret Uncovered
-- Shadows Amidst Snowstorms
-  - Act I: The Snowy Past
-  - Act II: The Shadows Deepen
-  - Act III: A Secret Born From Ashes
-- Hues of the Violet Garden
-  - Festival Deeds
-    - Part I: A Story for You
-  - True Tales of the Violet Garden
-    - Act I: The Strange Tale of Suikou's Tipsy Tincture
-      - The Strange Tale of Suikou's Tipsy Tincture
-    - Act II: What the Blue Flowers Left Behind
-      - What the Blue Flowers Left Behind
-    - Act III: A New Painting in Pale Scarlet
-      - A New Painting in Pale Scarlet
-    - Act IV: The Palace, Dyed in Black
-      - The Palace, Dyed in Black
-      - The Five Colors' True Form
-- Of Ballads and Brews
-  - Favonian Goodies and Buddies
-- Windblume's Breath
-  - Windblume Festival
-    - Part I: A Gathering of Outlanders
-    - Part II: A Riddle Amidst the Crowds
-    - Part III: Joy Above the Clouds
-- Feline Fortress Furrdyssey
-  - Sir Pouncelot Joins the Lot!
-- Summertide Scales and Tales
-  - Appendix: Afterword (Summertide Scales and Tales)
-- Homeward, He Who Caught the Wind
-  - Part II: For a Reunion Without Tears
-  - Part III: Variations on the Song of the Dragon and Freedom
-- Homeward, He Who Caught the Wind/A Chat Over Fine Drinks
-
-### Official Introduction, Personality, and Appearance
 #### Official Introduction
 Despite his great achievements in the field of alchemy, he does not speak of the nature of things too hastily.
 
@@ -493,7 +387,3 @@ The Wanderer later gave his core to Sandrone so she could continue computing her
 - As a Trial Character:
   - Albedo is one of three playable characters who wields a Flagship Event weapon in at least one of his Character Trial iterations (Festering Desire prior to Version 2.3, Cinnabar Spindle from 2.3 onwards), with the other characters with this distinction being Xianyun and Chiori.
   - Excluding Aloy (who is a crossover character lacking Character Trials) and the Traveler, he is also one of the only two 5-star characters who has never wielded a 5-star weapon in any of his Character Trial iterations to date. The other 5-star character with this distinction is Qiqi.
-
-mp3::https://raw.githubusercontent.com/coolpython53/GENSHIN-WIKI/main/pages/Characters/Albedo/Voice-overs/Deploying%20Wind%20Glider%2002.mp3
-
-mp3::https://raw.githubusercontent.com/coolpython53/GENSHIN-WIKI/main/pages/Characters/Albedo/Voice-overs/Deploying%20Wind%20Glider%2003.mp3
