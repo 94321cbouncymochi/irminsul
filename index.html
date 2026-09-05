@@ -1,193 +1,40 @@
-```html
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiki Search</title>
-
-    <!-- Markdown parser -->
+    <title>Wiki</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 30px;
-            background: #f5f5f5;
-            color: #222;
-        }
-
-        .search {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 30px;
-        }
-
-        #searchBox {
-            flex: 1;
-            padding: 14px;
-            font-size: 18px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-        }
-
-        button {
-            padding: 14px 22px;
-            font-size: 18px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            background: #333;
-            color: white;
-        }
-
-        button:hover {
-            background: #555;
-        }
-
-        #content {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            min-height: 300px;
-        }
-
-        .not-found {
-            text-align: center;
-            padding: 50px;
-            color: #777;
-        }
-
-        pre {
-            overflow-x: auto;
-            background: #eee;
-            padding: 15px;
-            border-radius: 6px;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background: #eee;
-        }
-
-        img {
-            max-width: 100%;
-        }
-    </style>
 </head>
 
 <body>
-
-    <h1>Wiki Search</h1>
-
-    <div class="search">
-        <input
-            id="searchBox"
-            type="text"
-            placeholder="Search for a page..."
-            autocomplete="off"
-        >
-        <button onclick="searchPage()">Search</button>
-    </div>
-
-    <div id="content">
-        <div class="not-found">
-            Search for a page to begin.
-        </div>
-    </div>
+    <article id="article"></article>
 
     <script>
-        async function searchPage() {
-            const searchBox = document.getElementById("searchBox");
-            const content = document.getElementById("content");
-
-            const search = searchBox.value.trim();
-
-            if (!search) {
-                content.innerHTML = `
-                    <div class="not-found">
-                        Please enter a page name.
-                    </div>
-                `;
-                return;
-            }
-
-            // Put the search into the URL
-            history.pushState({}, "", "?page=" + encodeURIComponent(search));
-
-            content.innerHTML = "<p>Loading...</p>";
-
-            // Convert spaces to underscores.
-            // Example: "Traveler" -> "Traveler.md"
-            // Example: "Amber Smith" -> "Amber_Smith.md"
-            const fileName = search.replace(/ /g, "_");
-
-            const path = "pages/" + fileName + ".md";
-
-            try {
-                const response = await fetch(path);
-
-                if (!response.ok) {
-                    throw new Error("Not found");
-                }
-
-                const markdown = await response.text();
-
-                // Convert Markdown to HTML
-                content.innerHTML = marked.parse(markdown);
-
-                document.title = search + " - Wiki";
-
-            } catch (error) {
-                content.innerHTML = `
-                    <div class="not-found">
-                        <h2>Page not found</h2>
-                        <p>No page named "<strong>${escapeHTML(search)}</strong>" exists.</p>
-                    </div>
-                `;
-
-                document.title = "Not Found - Wiki";
-            }
-        }
-
-        function escapeHTML(text) {
-            return text
-                .replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#039;");
-        }
-
-        // Allow pressing Enter to search
-        document.getElementById("searchBox").addEventListener("keydown", function(event) {
-            if (event.key === "Enter") {
-                searchPage();
-            }
-        });
-
-        // Automatically load ?page=Something
         const params = new URLSearchParams(window.location.search);
-        const initialPage = params.get("page");
+        const page = params.get("page");
 
-        if (initialPage) {
-            document.getElementById("searchBox").value = initialPage;
-            searchPage();
+        if (!page) {
+            document.getElementById("article").textContent = "Page not found.";
+        } else {
+            const filename = page.replace(/ /g, "_");
+
+            fetch("pages/" + encodeURIComponent(filename) + ".md")
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Not found");
+                    }
+                    return response.text();
+                })
+                .then(markdown => {
+                    document.getElementById("article").innerHTML =
+                        marked.parse(markdown);
+                })
+                .catch(() => {
+                    document.getElementById("article").textContent =
+                        "Page not found.";
+                });
         }
     </script>
-
 </body>
 </html>
-```
